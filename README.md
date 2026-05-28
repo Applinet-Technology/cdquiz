@@ -157,6 +157,171 @@ pip install cdquiz
 
 ---
 
+
+
+
+# Windows Easy Launcher (cdquiz.bat)
+
+CDQuiz includes a powerful Windows launcher script that automatically installs, configures, and launches the application with a single click.
+
+This makes CDQuiz beginner-friendly for Windows users who may not have Python or development tools installed.
+
+---
+
+## Download Windows Launcher
+
+Download the launcher below:
+
+▶ **Download cdquiz.bat**
+https://downloads.codehouse.cloud/cdquiz.bat
+
+After downloading:
+
+1. Double-click `cdquiz.bat`
+2. The launcher automatically prepares everything
+3. CDQuiz starts automatically
+
+No manual setup required.
+
+---
+
+## What the Launcher Automatically Does
+
+The Windows launcher performs the following operations automatically.
+
+---
+
+### 1. Terminal Optimization
+
+The launcher improves the command-line experience by:
+
+* Launching Windows Terminal when available
+* Enabling UTF-8 support
+* Configuring large terminal scroll buffers
+* Improving CLI readability and rendering
+
+Default terminal configuration:
+
+```text
+120 Columns × 5000 Buffer Lines
+```
+
+This creates a cleaner and more modern command-line environment.
+
+---
+
+### 2. Automatic Python Installation
+
+The launcher automatically checks for **Python 3.12**.
+
+If Python is not installed, the launcher installs it automatically using:
+
+```text
+winget
+```
+
+No manual Python installation is required.
+
+---
+
+### 3. Virtual Environment Setup
+
+A dedicated CDQuiz environment is automatically created and maintained at:
+
+```text
+%USERPROFILE%\CDQuiz\cdenv
+```
+
+Environment features include:
+
+* Automatic virtual environment creation
+* Environment validation checks
+* Corruption detection
+* Recovery and rebuild system
+* Isolated package management
+
+This helps keep CDQuiz stable and independent from other Python installations.
+
+---
+
+### 4. Dependency Installation
+
+The launcher automatically installs and upgrades required dependencies.
+
+Installed packages include:
+
+* rich
+* requests
+* cdquiz
+
+Package updates and repairs are handled automatically when needed.
+
+---
+
+### 5. Automatic Application Launch
+
+After setup is completed, CDQuiz launches automatically using:
+
+```bash
+python -m cdquiz.start
+```
+
+or simply:
+
+```bash
+cdquiz
+```
+
+No additional commands are required.
+
+---
+
+## Automated Workflow
+
+The launcher follows a fully automated workflow:
+
+```text
+1. Terminal Preparation
+        ↓
+2. Python Verification / Installation
+        ↓
+3. Virtual Environment Setup
+        ↓
+4. Dependency Installation
+        ↓
+5. CDQuiz Launch
+```
+
+Each stage includes:
+
+* Progress reporting
+* Error handling
+* Recovery mechanisms
+* Validation checks
+
+This creates a seamless installation and launch experience for Windows users.
+
+---
+
+## Why Use the Windows Launcher?
+
+The Windows launcher is designed for simplicity and accessibility.
+
+Benefits include:
+
+* Beginner-friendly installation
+* One-click setup
+* Automatic repair and recovery
+* Reduced configuration errors
+* No Python experience required
+* Faster onboarding for new learners
+
+CDQuiz becomes ready to use with minimal technical setup.
+
+---
+
+The Windows Easy Launcher is part of the CodeHouse Cloud mission to make technical learning more accessible, practical, and user-friendly for everyone.
+
 ## Run Application
 
 Launch the application using:
