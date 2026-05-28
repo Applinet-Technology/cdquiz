@@ -173,11 +173,11 @@ This makes CDQuiz beginner-friendly for Windows users who may not have Python or
 Download the launcher below:
 
 ▶ **Download cdquiz.bat**
-https://downloads.codehouse.cloud/cdquiz.bat
+https://downloads.codehouse.cloud/cdquiz.exe
 
 After downloading:
 
-1. Double-click `cdquiz.bat`
+1. Double-click `cdquiz.exe`
 2. The launcher automatically prepares everything
 3. CDQuiz starts automatically
 
