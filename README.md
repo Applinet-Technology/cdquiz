@@ -160,7 +160,7 @@ pip install cdquiz
 
 
 
-# Windows Easy Launcher (cdquiz.bat)
+# Windows Easy Launcher (CDQuiz.exe)
 
 CDQuiz includes a powerful Windows launcher script that automatically installs, configures, and launches the application with a single click.
 
@@ -172,12 +172,12 @@ This makes CDQuiz beginner-friendly for Windows users who may not have Python or
 
 Download the launcher below:
 
-▶ **Download cdquiz.bat**
-https://downloads.codehouse.cloud/cdquiz.exe
+▶ **Download CDQuiz.exe**
+https://downloads.codehouse.cloud/CDQuiz.exe
 
 After downloading:
 
-1. Double-click `cdquiz.exe`
+1. Double-click `CDQuiz.exe` Icon
 2. The launcher automatically prepares everything
 3. CDQuiz starts automatically
 
